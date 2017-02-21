@@ -4,7 +4,7 @@
   "description": "Simply generate table with multi-columns and column width auto adjust supported",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jasperck/node-table/issues"
   },
-  "homepage": "https://github.com/jasperck/node-table#readme"
+  "homepage": "https://github.com/jasperck/node-table#readme",
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
 }
