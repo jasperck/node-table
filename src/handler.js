@@ -30,7 +30,7 @@ module.exports = {
       columns.map((column) => {
         let dataLength = typeof data[column] === 'string' ? data[column].length : data[column].toString().length;
         maxWidth[column] = dataLength > maxWidth[column] ? dataLength : maxWidth[column];
-      })
+      });
     });
 
     return maxWidth;
